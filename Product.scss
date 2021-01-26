@@ -1,0 +1,44 @@
+@import "../../../../Styles/common.scss";
+
+.product {
+  border: 1px solid purple;
+  height: 323.17px;
+  width: 258px;
+
+  img {
+    width: 100%;
+    height: 269.17px;
+  }
+
+  .imageView {
+    position: relative;
+    height: 269.17px;
+
+    // div {
+    //   display: none;
+    // }
+    // &.success {
+    //   div {
+    //     position: absolute;
+    //     //border: 1px solid red;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     bottom: 10px;
+    //     left: 5px;
+    //     width: 45px;
+    //     height: 45px;
+    //     border-radius: 50%;
+    //     font-size: 12px;
+    //     font-weight: bold;
+    //     color: white;
+    //     background-color: $theme-color;
+    //   }
+    // }
+  }
+
+  .title {
+    height: 54px;
+    text-align: center;
+  }
+}
